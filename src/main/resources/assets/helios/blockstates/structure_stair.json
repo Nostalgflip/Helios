@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "helios:structure_stair"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/stair",
+  "textures": {
+    "all": "helios:blocks/structure_stair"
+  }
+}

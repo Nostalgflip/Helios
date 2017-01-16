@@ -1,0 +1,13 @@
+# MISC
+itemGroup.tabHelios=Helios
+
+# ITEMS
+item.solarite_ingot.name=Solarite Ingot
+item.cosmicite_dust.name=Cosmicite Dust
+item.astralite_ingot.name=Astralite Ingot
+
+# BLOCKS
+tile.solarite_block.name=Solarite Block
+tile.structure_block.name=Structure Block
+tile.plate_block.name=Plate Block
+tile.structure_stair.name=Structure Stair
