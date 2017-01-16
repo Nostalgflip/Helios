@@ -5,6 +5,8 @@ itemGroup.tabHelios=Helios
 item.solarite_ingot.name=Solarite Ingot
 item.cosmicite_dust.name=Cosmicite Dust
 item.astralite_ingot.name=Astralite Ingot
+item.meteorite_ingot.name=Meteorite Ingot
+item.darksteel_ingot.name=Darksteel Ingot
 
 # BLOCKS
 tile.solarite_block.name=Solarite Block
