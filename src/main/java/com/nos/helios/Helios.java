@@ -1,11 +1,13 @@
 package com.nos.helios;
 
+import com.nos.helios.tileentity.TileEntityElectrolyzer;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = Helios.MOD_ID, name = Helios.MOD_NAME, version = Helios.VERSION)
 public class Helios {
@@ -43,6 +45,7 @@ public class Helios {
             ModBlocks.init();
             ModItems.init();
             ModCrafting.init();
+            GameRegistry.registerTileEntity(TileEntityElectrolyzer.class, MOD_ID + "TileEntityElectrolyzer");
         }
 
         public void init(FMLInitializationEvent e) {
