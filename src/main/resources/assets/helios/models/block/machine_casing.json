@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+      "top":"helios:blocks/machine_top",
+      "side":"helios:blocks/machine_side",
+      "bottom":"helios:blocks/machine_bottom"
+  }
+}

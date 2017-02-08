@@ -6,10 +6,15 @@ item.solarite_ingot.name=Solarite Ingot
 item.cosmicite_dust.name=Cosmicite Dust
 item.astralite_ingot.name=Astralite Ingot
 item.meteorite_ingot.name=Meteorite Ingot
-item.darksteel_ingot.name=Darksteel Ingot
+item.ebonite_ingot.name=Ebonite Ingot
+item.ivorite_ingot.name=Ivorite Ingot
+# TODO Gem names
 
 # BLOCKS
 tile.solarite_block.name=Solarite Block
-tile.structure_block.name=Structure Block
-tile.plate_block.name=Plate Block
+tile.ebonite_block.name=Ebonite Block
+tile.ivorite_block.name=Ivorite Block
 tile.structure_stair.name=Structure Stair
+tile.machine_projector.name=Projector
+tile.machine_casing.name=Machine Casing
+

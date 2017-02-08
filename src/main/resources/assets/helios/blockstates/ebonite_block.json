@@ -1,7 +1,7 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "helios:plate_block"
+    "model": "helios:ebonite_block"
   },
   "variants": {
     "normal": [{}],

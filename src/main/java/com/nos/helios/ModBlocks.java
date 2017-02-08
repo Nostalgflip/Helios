@@ -1,35 +1,41 @@
 package com.nos.helios;
 
-import com.nos.helios.blocks.BasicBlock;
-import com.nos.helios.blocks.BasicStair;
-import com.nos.helios.blocks.IngotBlock;
-import com.nos.helios.blocks.ReactorRing;
+import com.nos.helios.blocks.*;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ModBlocks {
 
     public static IngotBlock solariteBlock;
-    public static BasicBlock structureBlock;
-    public static BasicBlock plateBlock;
-    public static BasicStair structureStair;
+    public static BasicBlock eboniteBlock;
+    public static BasicBlock ivoriteBlock;
+
+    public static BasicBlock machineCasing;
+    public static MachineProjector machineProjector;
+
     public static ReactorRing reactorRing;
 
     public static void init() {
         solariteBlock = new IngotBlock("solarite_block");
-        structureBlock = new BasicBlock(Material.IRON, "structure_block");
-        structureStair = new BasicStair(structureBlock);
-        plateBlock = new BasicBlock(Material.IRON, "plate_block");
+        eboniteBlock = new IngotBlock("ebonite_block");
+        ivoriteBlock = new IngotBlock("ivorite_block");
+
+        machineCasing = new BasicBlock(Material.IRON, "machine_casing");
+        machineProjector = new MachineProjector();
+
         reactorRing = new ReactorRing("reactor_ring");
     }
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
         solariteBlock.initModel();
-        structureBlock.initModel();
-        plateBlock.initModel();
-        //structureStair.initModel();
+        eboniteBlock.initModel();
+        ivoriteBlock.initModel();
+
+        machineCasing.initModel();
+        machineProjector.initModel();
+
+        reactorRing.initModel();
     }
 }

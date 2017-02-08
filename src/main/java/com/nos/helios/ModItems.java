@@ -17,7 +17,8 @@ public final class ModItems {
     public static BasicItem cosmiciteDust;
     public static BasicItem astraliteIngot;
     public static BasicItem meteoriteIngot;
-    public static BasicItem darksteelIngot;
+    public static BasicItem eboniteIngot;
+    public static BasicItem ivoriteIngot;
     public static BasicItem gemRed;
     public static BasicItem gemOrange;
     public static BasicItem gemYellow;
@@ -28,7 +29,8 @@ public final class ModItems {
         cosmiciteDust = new BasicItem("cosmicite_dust");
         astraliteIngot = new BasicItem("astralite_ingot");
         meteoriteIngot = new BasicItem("meteorite_ingot");
-        darksteelIngot = new BasicItem("darksteel_ingot");
+        eboniteIngot = new BasicItem("ebonite_ingot");
+        ivoriteIngot = new BasicItem("ivorite_ingot");
         gemRed = new BasicItem("gem_red");
         gemOrange = new BasicItem("gem_orange");
         gemYellow = new BasicItem("gem_yellow");
@@ -39,7 +41,8 @@ public final class ModItems {
         OreDictionary.registerOre("dustCosmicite", new ItemStack(cosmiciteDust));
         OreDictionary.registerOre("ingotAstralite", new ItemStack(astraliteIngot));
         OreDictionary.registerOre("ingotMeteorite", new ItemStack(meteoriteIngot));
-        OreDictionary.registerOre("ingotDarksteel", new ItemStack(darksteelIngot));
+        OreDictionary.registerOre("ingotEbonite", new ItemStack(eboniteIngot));
+        OreDictionary.registerOre("ingotIvorite", new ItemStack(ivoriteIngot));
     }
 
     @SideOnly(Side.CLIENT)
@@ -48,7 +51,8 @@ public final class ModItems {
         cosmiciteDust.initModel();
         astraliteIngot.initModel();
         meteoriteIngot.initModel();
-        darksteelIngot.initModel();
+        eboniteIngot.initModel();
+        ivoriteIngot.initModel();
         gemRed.initModel();
         gemOrange.initModel();
         gemYellow.initModel();

@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "helios:reactor_rings"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
