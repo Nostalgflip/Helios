@@ -12,6 +12,7 @@ item.ivorite_ingot.name=Ivorite Ingot
 
 # BLOCKS
 tile.solarite_block.name=Solarite Block
+tile.meteorite_block.name=Meteorite Block
 tile.ebonite_block.name=Ebonite Block
 tile.ivorite_block.name=Ivorite Block
 tile.structure_stair.name=Structure Stair
